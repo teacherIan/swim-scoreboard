@@ -5,16 +5,16 @@
 	/* grid grid-rows-2 grid-flow-col gap-2*/
 	import Card from "$lib/Card.svelte";
 	
-	import sapphire from '../lib/sapphireDark.JPG'
+	import sapphire from '$lib/sapphireDark.JPG'
 	
-	import ruby from '../lib/rubyDark.JPG'
+	import ruby from '$lib/rubyDark.JPG'
 	
-	import amber from '../lib/amberDark.JPG'
+	import amber from '$lib/amberDark.JPG'
 	
-	import pearl from '../lib/pearlDark.JPG'
+	import pearl from  '$lib/pearlDark.JPG'
 
 </script>
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+
 
 <div class="container h-full w-full mx-auto flex justify-center items-center overflow-hidden">
 	<div class=" grid grid-rows-2 grid-flow-col gap-10 h-90">
