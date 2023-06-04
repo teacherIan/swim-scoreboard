@@ -1,4 +1,5 @@
 <script lang='ts'>
+    //ts-ignore
     // your script goes here
     
     export let house:string
@@ -7,13 +8,13 @@
 
     import { localStorageStore } from '@skeletonlabs/skeleton';
     	import type { Writable } from 'svelte/store';
-    import sapphire from '$lib/sapphireDark.JPG'
+    import sapphire from '/sapphireDark.jpg'
 	
-	import ruby  from '$lib/rubyDark.JPG' 
+	import ruby  from '/rubyDark.jpg' 
 	
-	import amber from '$lib/amberDark.JPG'
+	import amber from '/amberDark.jpg'
 	
-	import pearl from  '$lib/pearlDark.JPG'
+	import pearl from  '/pearlDark.jpg'
         
 
     const newScore: Writable<[number,number,number,number]> = localStorageStore('newStore', [0,0,0,0])
