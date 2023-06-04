@@ -5,13 +5,13 @@
 	/* grid grid-rows-2 grid-flow-col gap-2*/
 	import Card from "$lib/Card.svelte";
 	
-	import sapphire from '../lib/sapphireDark copy.JPG'
+	import sapphire from '../lib/sapphireDark.JPG'
 	
 	import ruby from '../lib/rubyDark.JPG'
 	
-	import amber from '../lib/amberDark copy.JPG'
+	import amber from '../lib/amberDark.JPG'
 	
-	import pearl from '../lib/pearlDark copy.JPG'
+	import pearl from '../lib/pearlDark.JPG'
 
 </script>
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
